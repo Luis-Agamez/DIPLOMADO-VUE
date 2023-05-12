@@ -112,7 +112,7 @@ export default {       data(){
   
 
 <div class="w-full">
-  <RouterLink :to="{name : 'detail' , params : { id : item.id } }" >
+  <RouterLink :to="{name : 'detail' , params : { id : item.id} }" >
     <button
       class="py-2 px-4 bg-gray-700 text-white rounded hover:bg-gray-900 active:bg-gray-900 disabled:opacity-50 mt-4 w-full flex items-center justify-center"
     >

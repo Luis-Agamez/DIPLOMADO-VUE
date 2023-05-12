@@ -9,7 +9,7 @@ export default{
     }
   },
 
-mounted(){
+created(){
    axios.get('https://apigenerator.dronahq.com/api/gQliGKZH/books/'+this.$route.params.id).then(response =>{
    this.book = response.data
   }).catch(e => {

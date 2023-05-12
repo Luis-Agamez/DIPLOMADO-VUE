@@ -10,7 +10,7 @@
   <div class="w-full h-100">
 
     <h1 class="text-5xl font-bold">Register</h1>
-    <h1 class="text-xl md:text-2xl font-bold leading-tight mt-12">Crea tu cuenta</h1>
+    <h1 class="text-xl md:text-2xl font-bold leading-tight mt-6">Crea tu cuenta</h1>
 
     <form class="mt-6" action="#" method="POST">
       <div>
@@ -18,23 +18,23 @@
         <input type="text" name="" id="" placeholder="Username" class="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500 focus:bg-white focus:outline-none" autofocus autocompleted required>
       </div>
 
-      <div class="mt-4">
+      <div class="mt-3">
         <label class="block text-gray-700">Email</label>
         <input type="text" name="" id="" placeholder="Email" class="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500 focus:bg-white focus:outline-none" autofocus autocompleted required>
       </div>
 
-      <div class="mt-4">
+      <div class="mt-3">
         <label class="block text-gray-700">Direccion</label>
         <input type="text" name="" id="" placeholder="Direccion" class="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500 focus:bg-white focus:outline-none" autofocus autocompleted required>
       </div>
 
-      <div class="mt-4">
+      <div class="mt-3">
         <label class="block text-gray-700">Contraseña</label>
         <input type="password" name="" id="" placeholder="Contraseña" minlength="6" class="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500
               focus:bg-white focus:outline-none" required>
       </div>
 
-      <div class="mt-4">
+      <div class="mt-3">
         <label class="block text-gray-700">Verificacion de Contraseña</label>
         <input type="password" name="" id="" placeholder="Contraseña" minlength="6" class="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500
               focus:bg-white focus:outline-none" required>
@@ -56,7 +56,7 @@
       </a></RouterLink>
     </p>
 
-    <p class="text-sm text-gray-500 mt-12">&copy; Library - All Rights Reserved.</p>
+    <p class="text-sm text-gray-500 mt-2">&copy; Library - All Rights Reserved.</p>
   </div>
 
 </div>
